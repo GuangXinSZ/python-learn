@@ -20,3 +20,5 @@ for x in b :
     if x == 2 :
         break
     print(x)
+else :
+    print('输出成功')
