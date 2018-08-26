@@ -4,6 +4,7 @@
 # 3： import t 是导入文件
 import t
 from t import *
+from t import *
 
 print(ctx_1.a)
 print(t.sys.path)
