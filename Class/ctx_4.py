@@ -1,3 +1,4 @@
+# 定义类型
 class Student() :
     name = ''
     age = 0
