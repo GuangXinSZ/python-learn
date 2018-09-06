@@ -9,12 +9,15 @@ class Student :
     def doHomeWork(self) :
         print(self.name)
     
-    # 类的内部类
+    # 类的内部类 cls代表类student
     @classmethod
     def plusPut(cls) : 
         cls.age +=1
         print(cls.age)
 
+    @staticmethod
+    def add(x, y) :
+        pass
 
 student = Student('xin', 1)
 student.doHomeWork()
