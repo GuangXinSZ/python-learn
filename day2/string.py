@@ -1,4 +1,3 @@
-
 name = "my \t name is {name} and i am {year} old"
 
 # print(name.capitalize()) # 首字母大写
@@ -18,8 +17,12 @@ name = "my \t name is {name} and i am {year} old"
 # print('my'.isupper()) # 是否是全部大写
 # print('My Name Is'.join('==')) # 添加左右 符号
 # print(','.join(['1', '2']))
-# print('Alex'.lower()) #小写
+# print('Alex'.lower()) # 小写
 # print(*'Alex'.upper()) # 大写
+
 print('\nAlex'.lstrip()) # 去除左边的空格
 print('alex\n'.rstrip()) # 去除右边边的空格
-print('\nAlex\n'.strip()) # 去除全部的\n 
+print('\nAlex\n'.strip()) # 去除全部的\n
+print('alex'.replace('l', 'L')) # 替换
+print('alex l'.rfind('l')) # 找到最右边的下标
+print('Alex Li'.swapcase()) # 大写转小写 and !
