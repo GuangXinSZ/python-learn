@@ -12,7 +12,7 @@ print(list_1.union(list_2))
 
 # 差集 in list_1 but not in list_2
 print(list_1.difference(list_2))
-
+ 
 # 子集
 print(list_3.issubset(list_1))
 print(list_1.issuperset(list_3)) # 反过来
@@ -22,3 +22,12 @@ print(list_1.symmetric_difference(list_2))
 
 # 存不存在交集 没有返回True 有返回False
 print(list_3.isdisjoint(list_4))
+
+# 交集 简写
+print(list_1 & list_2)
+# 并集
+print(list_1 | list_2)
+# 差集 in list_1 but not in list_2
+print(list_1 - list_2)
+# 反向差集 list_1 跟 list_2都没的参数进行返回
+print(list_1 ^ list_2)
