@@ -20,7 +20,7 @@ data = {
 
 exit_enable = False
 
-while not  exit_enable:
+while not exit_enable:
     for i in data:
         print(i)
     choice = input("请选择进入>>>:")
