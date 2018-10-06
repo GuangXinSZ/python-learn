@@ -21,3 +21,9 @@ def test4(name, age=18, **kwargs):
 # test3(**{'name':'alex', 'age': 8})
 
 test4('alex', sex="m", hobby="打球", age="1")
+
+def calc(n):
+  print(n)
+  if int(n/2) > 0:
+    return calc(int(n/2))
+calc(10)
