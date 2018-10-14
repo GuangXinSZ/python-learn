@@ -8,8 +8,8 @@ def timer(func):n
     stop_time = time.time()
     print('the func run time is %s' %(stop_time-start_time))
   return wrapper
-
 @timer
+
 def test1():
   time.sleep(3)
   print('in the test')
