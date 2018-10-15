@@ -13,4 +13,5 @@ def test2 (func):
   print(func)
   func()
 
+
 test2(test1)
