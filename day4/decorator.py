@@ -1,7 +1,7 @@
 import time
 
 # 装饰器
-def timer(func):n 
+def timer(func):
   def wrapper(*args, **kwargs):
     start_time = time.time()
     func()
