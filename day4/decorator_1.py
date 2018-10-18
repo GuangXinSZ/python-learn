@@ -9,6 +9,7 @@ def timer(func):
   
   return deco
 
+@timer # test1 = timer(test1)
 def test1():
   time.sleep(3)
   print('test1')
@@ -17,6 +18,4 @@ def test2():
   time.sleep(3)
   print('test2')
 
-temp1 = timer(test1)
-temp1()
-temp2 = timer(test2)
+test1()
