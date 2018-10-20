@@ -4,7 +4,7 @@ username = 'liu'
 password = '123'
 
 def auth(func):
-  def outer_wrapper() :
+  def outer_wrapper():
      def wrapper(*args, **kwargs):
       Username = input("please input Username:").strip()
       Password = input("please input Password:").strip()
@@ -14,7 +14,7 @@ def auth(func):
         res = func(*args, **kwargs)
         return res
       else:
-        exit("账号或者密码错误")
+        exit("账号或者密码错误") 
 
     return wrapper
   return outer_wrapper
