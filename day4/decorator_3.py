@@ -8,3 +8,9 @@ def fib(max):
 
 res = fib(10)
 print(res.__next__())
+
+# 异常
+# try:
+#   pass
+# except expression as identifier:
+#   pass 

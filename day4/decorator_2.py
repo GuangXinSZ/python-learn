@@ -18,7 +18,7 @@ def auth(func):
 
     return wrapper
   return outer_wrapper
-
+ 
 @auth
 def test1(auth_type="ldap"):
   print("登录成功")
