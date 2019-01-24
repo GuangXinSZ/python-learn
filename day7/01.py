@@ -13,4 +13,11 @@ def test1():
   time.sleep(3)
   print('123')
 
-test1()
+# test1()
+def bar():
+  print('bar')
+
+def foo():
+  print('foo')
+  bar()
+foo()
