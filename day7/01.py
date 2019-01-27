@@ -8,6 +8,7 @@ def timmer(func):
     print('the fun run time is %s' %(start_time - stop_time))
   return wrapper
 
+
 @timmer
 def test1():
   time.sleep(3)
@@ -20,4 +21,9 @@ def bar():
 def foo():
   print('foo')
   bar()
+num = 2
+if num == 2:
+  print('123')
+elif:
+  print('hello')
 foo()
