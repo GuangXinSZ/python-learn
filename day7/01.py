@@ -22,8 +22,7 @@ def foo():
   print('foo')
   bar()
 num = 2
-if num == 2:
-  print('123')
-elif:
-  print('hello')
-foo()
+
+a = 1
+b = 2
+print(a, b)
