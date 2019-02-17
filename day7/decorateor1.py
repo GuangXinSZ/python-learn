@@ -24,3 +24,5 @@ def test2(a, b):
 # test1 = timmer(test1)
 test1()
 test2('name','22')
+
+print("hello world")
