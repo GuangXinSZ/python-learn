@@ -11,7 +11,8 @@ def auth(fun):
 
     if user == username and password == passwd:
       print('验证成功!')
-      fun(*args, **kwargs)
+      res = fun(*args, **kwargs)
+      return res
     else:
       exit('验证失败')
   
@@ -20,10 +21,12 @@ def auth(fun):
 @auth
 def test1():
   print('进入1')
+  return 'form home'
 
 @auth
 def test2():
   print('进入2')
 
-test1()
+value = test1()
+print(value)
 test2()
