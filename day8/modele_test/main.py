@@ -11,6 +11,9 @@ __author__ = "xin"
 import sys, os
 # 获取文件路径名
 path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-import module_alex
+# 导入优化
+from module_alex import logger
 
-module_alex.say_hello()
+# module_alex.say_hello()
+
+logger()
